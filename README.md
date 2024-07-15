@@ -1,6 +1,6 @@
 # Potato Disease Classification using Deep Learning
 
-This project focuses on developing a deep-learning model to classify plant diseases using images. The model is built using TensorFlow and Keras, leveraging the PlantVillage dataset.
+This project focuses on developing a deep-learning model to classify potato diseases using images. The model is built using TensorFlow and Keras, leveraging the [plantVillage dataset](https://www.kaggle.com/datasets/arjuntejaswi/plant-village).
 
 ## Table of Contents
 - [Overview](#overview)
@@ -17,7 +17,7 @@ The aim of this project is to accurately classify potato diseases (Early or Late
 
 ## Dataset
 
-The dataset used in this project is the [PlantVillage dataset](https://www.kaggle.com/datasets/arjuntejaswi/plant-village), which contains labelled images of various plant diseases. The dataset is divided into training, validation, and test sets.
+The dataset used in this project is the [plantVillage dataset](https://www.kaggle.com/datasets/arjuntejaswi/plant-village), which contains labelled images of various potato diseases. The dataset is divided into training, validation, and test sets.
 
 ## Preprocessing the data
 
@@ -49,4 +49,4 @@ The model's performance is evaluated using the validation and test sets. Key met
 
 ## Results
 
-The model achieves significant accuracy in classifying plant diseases, demonstrating the effectiveness of data augmentation and model tuning. Visualisations of predictions and confidence levels are provided.
+The model achieves significant accuracy in classifying potato diseases, demonstrating the effectiveness of data augmentation and model tuning. Visualisations of predictions and confidence levels are provided.
