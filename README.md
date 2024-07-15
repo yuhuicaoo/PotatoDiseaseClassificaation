@@ -11,8 +11,6 @@ This project focuses on developing a deep learning model to classify plant disea
 - [Evaluation](#evaluation)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -20,7 +18,7 @@ The aim of this project is to accurately classify plant diseases from images usi
 
 ## Dataset
 
-The dataset used in this project is the PlantVillage dataset, which contains labeled images of various plant diseases. The dataset is divided into training, validation, and test sets.
+The dataset used in this project is the [PlantVillage dataset](https://www.kaggle.com/datasets/arjuntejaswi/plant-village), which contains labelled images of various plant diseases. The dataset is divided into training, validation, and test sets.
 
 ## Preprocessing
 
