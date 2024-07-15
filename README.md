@@ -1,6 +1,6 @@
-# Plant Disease Classification using Deep Learning
+# Potato Disease Classification using Deep Learning
 
-This project focuses on developing a deep learning model to classify plant diseases using images. The model is built using TensorFlow and Keras, leveraging the PlantVillage dataset.
+This project focuses on developing a deep-learning model to classify plant diseases using images. The model is built using TensorFlow and Keras, leveraging the PlantVillage dataset.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -9,18 +9,17 @@ This project focuses on developing a deep learning model to classify plant disea
 - [Model Architecture](#model-architecture)
 - [Training](#training)
 - [Evaluation](#evaluation)
-- [Usage](#usage)
 - [Results](#results)
 
 ## Overview
 
-The aim of this project is to accurately classify plant diseases from images using a convolutional neural network (CNN). The project involves data preprocessing, model building, training, and evaluation.
+The aim of this project is to accurately classify potato diseases (Early or Late blight) from images using a convolutional neural network (CNN). The project involves data preprocessing, model building, training, evaluation and visualisation.
 
 ## Dataset
 
 The dataset used in this project is the [PlantVillage dataset](https://www.kaggle.com/datasets/arjuntejaswi/plant-village), which contains labelled images of various plant diseases. The dataset is divided into training, validation, and test sets.
 
-## Preprocessing
+## Preprocessing the data
 
 Preprocessing steps include:
 - Resizing images to a standard size.
@@ -47,13 +46,7 @@ The model is trained on the preprocessed dataset with the following settings:
 
 The model's performance is evaluated using the validation and test sets. Key metrics include accuracy and loss, visualized through training and validation curves.
 
-## Usage
-
-To use the model for predictions:
-1. Load the saved model.
-2. Preprocess the input image.
-3. Use the model to predict the class of the image.
 
 ## Results
 
-The model achieves significant accuracy in classifying plant diseases, demonstrating the effectiveness of data augmentation and model tuning. Visualizations of predictions and confidence levels are provided.
+The model achieves significant accuracy in classifying plant diseases, demonstrating the effectiveness of data augmentation and model tuning. Visualisations of predictions and confidence levels are provided.
