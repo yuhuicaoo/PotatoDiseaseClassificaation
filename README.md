@@ -18,7 +18,7 @@ The aim of this project is to accurately classify plant diseases from images usi
 
 ## Dataset
 
-The dataset used in this project is the <a href="[https://readme.com/](https://www.kaggle.com/datasets/arjuntejaswi/plant-village)" target="_blank">PlantVillage dataset</a>, which contains labelled images of various plant diseases. The dataset is divided into training, validation, and test sets.
+The dataset used in this project is the <a href="https://www.kaggle.com/datasets/arjuntejaswi/plant-village" target="_blank">PlantVillage dataset</a>, which contains labelled images of various plant diseases. The dataset is divided into training, validation, and test sets.
 
 ## Preprocessing
 
